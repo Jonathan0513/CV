@@ -1,0 +1,114 @@
+body{
+    font-family: 'Open Sans' ;
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    
+}
+header{
+
+    background: url(../img/fondo.jpg);
+    height: 70vh;
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+    font-size: large;
+    
+}
+nav li{
+    display: inline;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left:95px;
+   
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    color: yellow; 
+}
+.banner{
+    text-align: center;
+    padding-top: 45px;
+    font-size: 25px;
+}
+.sectionperfil{
+    background: linear-gradient(to right, #434343 0%, black 100%);
+    padding-top: 6px;
+    padding-bottom: 45px;
+    padding: 25px;
+}
+.perfilclass{
+    display: flex;
+    
+}
+.perfilclass img{
+    height: 280px;
+    border-radius: 10%;
+}
+#perfiltext{
+    padding-left: 45px;
+    
+}
+#perfiltext h3{
+    font-size: 35px;
+}
+.sec_habi{
+    background:url(../img/luna.jpg) ;
+    color:white;
+    
+    padding: 25px;
+}
+.habilidades{
+    display: flex;
+
+}
+.sec_habi img{
+    height: 180px;
+    width: 350px;
+    border-color: aliceblue;
+    border-width: 5px;
+    border-style: solid;
+}
+.sec_habi div{
+    color: white;
+    padding: 25px;
+
+}
+.sec_expe{
+    background: linear-gradient(to right,black 0%, #434343 100%);
+    padding: 25px;
+}
+.sec_educa{
+    background-image: linear-gradient(to right, white 0%, #304352 100%);
+    color: black;
+    padding: 25px;
+}
+#upn{
+    display: flex;
+}
+.sec_educa img{
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;
+}
+#contac{
+    background-color: aliceblue;
+    color: black;
+    padding: 25px;
+}
+#contac img{
+    width: 40px;
+    height: 40px;
+}
+#rtn{
+    display: block;
+    margin: auto;
+}
